@@ -1,0 +1,275 @@
+body{
+    background-color: rgb(1, 62, 144);
+}
+
+h1{
+    background-color: rgb(255, 112, 112);
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding: 5px;
+    border: 5px solid rgb(255, 0, 0);
+    text-align: center;
+    font-size: 250%;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.menu a{
+    background: rgb(255, 85, 246);
+    display: block;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background: rgb(255, 137, 249);
+}
+
+.content-box {
+  background-color: white;
+  color: black;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.hobbie-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.hobbie-item {
+  width: 260px;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.hobbie-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.hobbie-item h2 {
+  color: rgb(1, 62, 144);
+  margin: 10px 0 5px;
+}
+
+.hobbie-item p {
+  padding: 0 10px 15px;
+  font-size: 0.95em;
+}
+
+.dance-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.dance-intro {
+  flex: 1 1 35%;
+  text-align: center;
+}
+
+.dance-intro img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
+.dance-intro h2 {
+  color: rgb(1, 62, 144);
+  margin: 10px 0;
+}
+
+.dance-intro p {
+  font-size: 1em;
+  color: #333;
+  padding: 0 10px;
+}
+
+.dance-videos {
+  flex: 1 1 60%;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-item {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 15px;
+  text-align: center;
+}
+
+.video-item h3 {
+  font-size: 1.1em;
+  color: rgb(1, 62, 144);
+  margin: 0 0 5px;
+}
+
+.video-item p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.bias-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.bias-media {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.bias-media img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.bias-text {
+  flex: 1 1 55%;
+}
+
+.bias-text h2 {
+  text-align: right;
+  color: rgb(1, 62, 144);
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.bias-text p {
+  text-align: right;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+.bias-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.bias-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.bias-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.bias-card iframe {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.bias-card p {
+  font-size: 0.95em;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.back-button {
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+.back-button a {
+  background-color: white;
+  color: rgb(1, 62, 144);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button a:hover {
+  background-color: rgb(255, 216, 250);
+  color: black;
+}
+
+.bias-subtitle {
+  font-size: 1.1em;
+  color: #555;
+  margin: 5px 0 0;
+}
+
+.bias-name {
+  font-size: 1.3em;
+  color: rgb(206, 0, 161);
+  margin: 5px 0 10px;
+}
+
+.bias-title-box {
+  flex: 1 1 25%;
+  text-align: right;
+  padding: 20px;
+}
+
+.bias-title-box h2 {
+  color: rgb(1, 62, 144);
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+.bias-video-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.bias-video-thumbnail:hover {
+  transform: scale(1.03);
+}
